@@ -3,7 +3,7 @@ module.exports = Scanner
 function Scanner(string) {
   this.string = String(string)
   this.index = 0
-  this.match = null
+  this.match = new Match()
 }
 
 Scanner.prototype.check = function(pattern) {
