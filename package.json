@@ -1,0 +1,14 @@
+{
+  "name": "str-scan",
+  "version": "1.0.0",
+  "author": "Florent Cailhol",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "chai": "*",
+    "mocha": "*"
+  }
+}
